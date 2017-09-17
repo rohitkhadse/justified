@@ -32,6 +32,19 @@ dependencies {
 }
 ```
 
+android xml:
+<com.uncopt.android.widget.text.justify.JustifiedTextView
+    android:layout_width="match_parent"
+    android:id="@+id/text"
+    android:padding="5dp"
+    android:textColor="#303336"
+    android:textSize="18sp"
+    android:layout_height="wrap_content"/>
+    
+and use this in the Java class:
+JustifiedTextView myMsg = (JustifiedTextView)findViewById(R.id.t1);
+myMsg.setText("your text data for justify");
+
 Sample Application
 ------------------
 
